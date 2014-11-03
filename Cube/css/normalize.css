@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrpap{
+    width: 800px;
+    position:relative;
+    margin: 0px auto;
+    perspective:600px;
+}
+.face{
+    position: absolute;
+    width: 250px;
+    height:250px;
+}
+
+.size1{
+    left:250px;
+   -webkit-transform-origin:0 100% ;
+    transform: rotate3d(100, 0, 0, 90deg);
+    background-color: green;
+}
+.size2{
+    top: 250px;
+    -webkit-transform-origin:100% 0;
+    transform: rotate3d(0,100,0,180deg);
+    background-color: blue;
+}
+.size3{
+    top: 250px;
+    left: 251px;
+    background-color: red;
+
+}
+.size4{
+    top: 250px;
+    left: 500px;
+    -webkit-transform-origin:0 100% ;
+    transform: rotate3d(0,100,0,90deg);
+    background-color: goldenrod;
+}
+.size5{
+    top: 500px;
+    left: 250px;
+    -webkit-transform-origin:100% 0 ;
+    transform: rotate3d(0,0,100,90deg);
+    background-color: silver;
+}
+.cube {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate3d(0,0,0px);
+    -webkit-transform: rotate3d(1,3,-1,180deg);
+}
