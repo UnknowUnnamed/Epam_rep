@@ -1,0 +1,36 @@
+.move-boat:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: url('../images/steam.png') no-repeat;
+  background-size: 120px;
+  position: absolute;
+  top: -50%;
+  left: -5%;
+  opacity: 0;
+}
+.move-boat{
+  position: absolute;
+  bottom:10px;
+  -webkit-transition: left 2s linear;
+  transition: left 2s ease-in;
+  left:0;
+}
+.wave{
+  position: absolute;
+  bottom:0;
+  width: 1600px;
+  height:150px;
+  left:-50%;
+}
+.sun {
+  position: absolute;
+  right:0;
+}
+.cloud{
+  position: absolute;
+  right:-150px;
+  z-index:1;
+}
+/* Write your code */

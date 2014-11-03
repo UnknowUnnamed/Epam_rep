@@ -1,0 +1,27 @@
+
+
+.ease:hover{
+  background: #855348;
+    width: 500px;
+    -webkit-transition:all 4s ease;
+}
+.linear:hover{
+    background: #736853;
+    width: 350px;
+    -webkit-transition:all 4s linear;
+}
+.easein:hover{
+    background: #65785B;
+    width: 165px;
+    -webkit-transition:all 4s ease-in;
+}
+.easeout:hover{
+    background:#7E5B4C ;
+    width: 400px;
+    -webkit-transition:all 4s ease-out;
+}
+.easeinout:hover{
+    background:#697358 ;
+    width: 250px;
+    -webkit-transition:all 4s ease-in-out;
+}

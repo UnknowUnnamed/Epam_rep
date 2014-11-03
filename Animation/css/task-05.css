@@ -1,0 +1,24 @@
+.anim-container{
+  position: relative;
+  overflow: hidden;
+  height:550px;
+}
+.anim-img{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-300px 0 0 -300px;
+}
+.logo-picture{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-50px 0 0 -50px;
+  z-index:1;
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+/* Your code */

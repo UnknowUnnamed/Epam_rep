@@ -1,0 +1,50 @@
+
+.panel-body a{
+    color:#A6AD94;
+    border-radius: 26px;
+    padding-left:3em;
+    padding-right:3em;
+    border: none;
+    -webkit-box-shadow: 4px -3px 8px 0px rgba(50, 50, 50, 0.85);
+    -moz-box-shadow:    4px -3px 8px 0px rgba(50, 50, 50, 0.85);
+    box-shadow:         4px -3px 8px 0px rgba(50, 50, 50, 0.85);
+    -webkit-transition:all 1s ;
+}
+.panel-body a:hover{
+    width: 20%;
+    -webkit-box-shadow: -10px 13px 8px 0px rgba(50, 50, 50, 0.85);
+    -moz-box-shadow:    -10px 13px 8px 0px rgba(50, 50, 50, 0.85);
+    box-shadow:         -10px 13px 8px 0px rgba(50, 50, 50, 0.85);
+    border-radius: 20px;
+}
+.panel-body>a:before
+{   content: '';
+    display: table;
+    -webkit-box-shadow: -6px 8px 8px 0px rgba(50, 50, 50, 0.85);
+    -moz-box-shadow:    -6px 8px 8px 0px rgba(50, 50, 50, 0.85);
+    box-shadow:         -6px 8px 8px 0px rgba(50, 50, 50, 0.85);
+}
+.panel-body>a:nth-child(1){
+    background-color: #558A64;
+}
+.panel-body>a:nth-child(1):hover{
+    background-color: #5CB85C;
+}
+.panel-body>a:nth-child(2){
+    background: #93575D;
+}
+.panel-body>a:nth-child(2):hover{
+    background-color:#D9534F ;
+}
+.panel-body>a:nth-child(3){
+    background-color: #9F845D;
+}
+.panel-body>a:nth-child(3):hover{
+    background-color:#F0AD4E ;
+}
+.panel-body>a:nth-child(4){
+    background: #548EA5;
+}
+.panel-body>a:nth-child(4):hover{
+    background-color:#5BC0DE ;
+}
